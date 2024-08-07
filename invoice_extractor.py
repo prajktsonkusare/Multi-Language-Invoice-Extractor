@@ -6,7 +6,7 @@ import os
 from PIL import Image
 import google.generativeai as genai
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key='AIzaSyBfv3Jx30PKhyBvet479WSGuwWVkq-_66Y')
 
 ## Load Gemini pro vision model
 model=genai.GenerativeModel('gemini-1.5-pro')
